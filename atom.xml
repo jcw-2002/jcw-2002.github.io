@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jcw-2002.github.io/project</id>
+    <id>https://jcw-2002.github.io</id>
     <title>技术探索笔记</title>
-    <link href="https://jcw-2002.github.io/project" />
+    <link href="https://jcw-2002.github.io" />
     <updated>2025-03-06T21:46:54.064Z</updated>
     <entry>
-        <id>https://jcw-2002.github.io/project/2025/03/07/hello-world/</id>
+        <id>https://jcw-2002.github.io/2025/03/07/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="https://jcw-2002.github.io/project/2025/03/07/hello-world/"/>
+        <link rel="alternate" href="https://jcw-2002.github.io/2025/03/07/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;pre class=&#34;line-numbers language-language-bash&#34;&gt;&lt;code class=&#34;language-language-bash&#34;&gt;$ hexo new &#34;My New Post&#34;
 &lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
