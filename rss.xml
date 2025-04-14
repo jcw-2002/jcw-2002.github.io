@@ -7,6 +7,8 @@
         <language>zh-CN</language>
         <pubDate>Mon, 24 Mar 2025 04:56:55 +0800</pubDate>
         <lastBuildDate>Mon, 24 Mar 2025 04:56:55 +0800</lastBuildDate>
+        <category>自我介绍</category>
+        <category>me</category>
         <item>
             <guid isPermalink="true">http://www.wanjc.top/2025/03/24/hello-world/</guid>
             <title>Hello World</title>
@@ -28,6 +30,8 @@
             <guid isPermalink="true">http://www.wanjc.top/2025/01/01/introduce/</guid>
             <title>自我介绍</title>
             <link>http://www.wanjc.top/2025/01/01/introduce/</link>
+            <category>自我介绍</category>
+            <category>me</category>
             <pubDate>Wed, 01 Jan 2025 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;一个不愿透露姓名的帅气年轻小伙&lt;/p&gt;
 &lt;!-- 使用HTML实现图片左对齐 --&gt;
