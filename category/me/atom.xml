@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://www.wanjc.top</id>
+    <title>首 页 • Posts by &#34;me&#34; category</title>
+    <link href="http://www.wanjc.top" />
+    <updated>2024-12-31T16:00:00.000Z</updated>
+    <category term="Git" />
+    <category term="update" />
+    <category term="自我介绍" />
+    <entry>
+        <id>http://www.wanjc.top/2025/01/01/introduce/</id>
+        <title>自我介绍</title>
+        <link rel="alternate" href="http://www.wanjc.top/2025/01/01/introduce/"/>
+        <content type="html">&lt;p&gt;一个不愿透露姓名的帅气年轻小伙&lt;/p&gt;
+&lt;!-- 使用HTML实现图片左对齐 --&gt;
+&lt;div style=&#34;float: left; margin-right: 20px; margin-bottom: 10px;&#34;&gt;
+  &lt;img loading=&#34;lazy&#34; data-src=&#34;/images/me.jpg&#34; alt=&#34;个人照片&#34; style=&#34;width: 150px; border-radius: 8px;&#34; /&gt;
+&lt;/div&gt;
+&lt;!-- 清除浮动避免影响后续内容 --&gt;
+&lt;div style=&#34;clear: both;&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本信息&#34;&gt;#&lt;/a&gt; 📮 基本信息&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;联系方式&lt;/strong&gt;： QQ: 1012386834 | &lt;a href=&#34;mailto:zx1012386834@outlook.com&#34;&gt;zx1012386834@outlook.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地址&lt;/strong&gt;：重庆&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/jcw-2002&#34;&gt;jcw-2002&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术博客&lt;/strong&gt;: &lt;a href=&#34;https://www.wanjc.top/&#34;&gt;我的技术笔记&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;教育背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#教育背景&#34;&gt;#&lt;/a&gt; 🎓 教育背景&lt;/h2&gt;
+&lt;h3 id=&#34;重庆工商大学&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#重庆工商大学&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://www.ctbu.edu.cn/&#34;&gt;重庆工商大学&lt;/a&gt; | 信息管理与信息系统（本科）&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;2021.09 - 2025.06&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主修课程：数据挖掘、数据库原理、机器学习&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;重庆大学国家卓越工程师学院&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#重庆大学国家卓越工程师学院&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://eie.cqu.edu.cn/index.htm&#34;&gt;重庆大学国家卓越工程师学院&lt;/a&gt; | 智能网联汽车（交流生）&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;2024.09 - 2025.06&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;研究方向：自动驾驶关键场景生成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;获奖经历&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#获奖经历&#34;&gt;#&lt;/a&gt; 🏆  获奖经历&lt;/h2&gt;
+&lt;p&gt;2024 年（第 12 届）“泰迪杯” 数据挖掘挑战赛（负责人）全国三等奖&lt;br&gt;
+第 20 届学科竞赛节之信息系统开发大赛 校级二等奖&lt;br&gt;
+第 19 届学科竞赛节之信息系统开发大赛 校级二等奖&lt;br&gt;
+第八届中国国际 “互联网 +” 大学生创新创业大赛 院级优秀奖&lt;/p&gt;
+&lt;h2 id=&#34;技术能力&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#技术能力&#34;&gt;#&lt;/a&gt; 💻 技术能力&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption data-lang=&#34;plaintext&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;数据分析  ► Python（pandas/numpy/matplotlib/seaborn）、SQL、数据清洗/可视化  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;机器学习  ► Scikit-learn、XGBoost/LightGBM、特征工程、超参数调优  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;数据工程  ► Selenium爬虫、线程池优化、ETL流程设计  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;工具语言  ► Git、Markdown、CET-4（英文技术文档阅读）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;开源与写作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开源与写作&#34;&gt;#&lt;/a&gt; 📚 开源与写作&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jcw-2002&#34;&gt;GitHub 仓库&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jcw-2002/competitions&#34;&gt;数据挖掘竞赛代码&lt;/a&gt;&lt;br&gt;
+学习期间所打的一些比赛，只有部分关键代码，省略了数据和一些无关紧要的代码&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jcw-2002/Crawler&#34;&gt;自动化爬虫工具集&lt;/a&gt;&lt;br&gt;
+自学的爬虫，这些都是爬取成功并获得数据的网站，有些代码可能已经过时&lt;/p&gt;
+</content>
+        <category term="自我介绍" />
+        <updated>2024-12-31T16:00:00.000Z</updated>
+    </entry>
+</feed>

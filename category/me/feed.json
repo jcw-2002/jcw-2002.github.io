@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "首 页 • All posts by \"me\" category",
+    "description": "简单介绍自己并记录生活",
+    "home_page_url": "http://www.wanjc.top",
+    "items": [
+        {
+            "id": "http://www.wanjc.top/2025/01/01/introduce/",
+            "url": "http://www.wanjc.top/2025/01/01/introduce/",
+            "title": "自我介绍",
+            "date_published": "2024-12-31T16:00:00.000Z",
+            "content_html": "<p>一个不愿透露姓名的帅气年轻小伙</p>\n<!-- 使用HTML实现图片左对齐 -->\n<div style=\"float: left; margin-right: 20px; margin-bottom: 10px;\">\n  <img loading=\"lazy\" data-src=\"/images/me.jpg\" alt=\"个人照片\" style=\"width: 150px; border-radius: 8px;\" />\n</div>\n<!-- 清除浮动避免影响后续内容 -->\n<div style=\"clear: both;\"></div>\n<h2 id=\"基本信息\"><a class=\"markdownIt-Anchor\" href=\"#基本信息\">#</a> 📮 基本信息</h2>\n<ul>\n<li><strong>联系方式</strong>： QQ: 1012386834 | <a href=\"mailto:zx1012386834@outlook.com\">zx1012386834@outlook.com</a></li>\n<li><strong>地址</strong>：重庆</li>\n<li><strong>GitHub</strong>: <a href=\"https://github.com/jcw-2002\">jcw-2002</a></li>\n<li><strong>技术博客</strong>: <a href=\"https://www.wanjc.top/\">我的技术笔记</a></li>\n</ul>\n<hr>\n<h2 id=\"教育背景\"><a class=\"markdownIt-Anchor\" href=\"#教育背景\">#</a> 🎓 教育背景</h2>\n<h3 id=\"重庆工商大学\"><a class=\"markdownIt-Anchor\" href=\"#重庆工商大学\">#</a> <a href=\"https://www.ctbu.edu.cn/\">重庆工商大学</a> | 信息管理与信息系统（本科）</h3>\n<p><strong>2021.09 - 2025.06</strong></p>\n<ul>\n<li>主修课程：数据挖掘、数据库原理、机器学习</li>\n</ul>\n<h3 id=\"重庆大学国家卓越工程师学院\"><a class=\"markdownIt-Anchor\" href=\"#重庆大学国家卓越工程师学院\">#</a> <a href=\"https://eie.cqu.edu.cn/index.htm\">重庆大学国家卓越工程师学院</a> | 智能网联汽车（交流生）</h3>\n<p><strong>2024.09 - 2025.06</strong></p>\n<ul>\n<li>研究方向：自动驾驶关键场景生成</li>\n</ul>\n<hr>\n<h2 id=\"获奖经历\"><a class=\"markdownIt-Anchor\" href=\"#获奖经历\">#</a> 🏆  获奖经历</h2>\n<p>2024 年（第 12 届）“泰迪杯” 数据挖掘挑战赛（负责人）全国三等奖<br>\n第 20 届学科竞赛节之信息系统开发大赛 校级二等奖<br>\n第 19 届学科竞赛节之信息系统开发大赛 校级二等奖<br>\n第八届中国国际 “互联网 +” 大学生创新创业大赛 院级优秀奖</p>\n<h2 id=\"技术能力\"><a class=\"markdownIt-Anchor\" href=\"#技术能力\">#</a> 💻 技术能力</h2>\n<figure class=\"highlight plaintext\"><figcaption data-lang=\"plaintext\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>数据分析  ► Python（pandas/numpy/matplotlib/seaborn）、SQL、数据清洗/可视化  </pre></td></tr><tr><td data-num=\"2\"></td><td><pre>机器学习  ► Scikit-learn、XGBoost/LightGBM、特征工程、超参数调优  </pre></td></tr><tr><td data-num=\"3\"></td><td><pre>数据工程  ► Selenium爬虫、线程池优化、ETL流程设计  </pre></td></tr><tr><td data-num=\"4\"></td><td><pre>工具语言  ► Git、Markdown、CET-4（英文技术文档阅读）</pre></td></tr></table></figure><h2 id=\"开源与写作\"><a class=\"markdownIt-Anchor\" href=\"#开源与写作\">#</a> 📚 开源与写作</h2>\n<p><a href=\"https://github.com/jcw-2002\">GitHub 仓库</a></p>\n<p><a href=\"https://github.com/jcw-2002/competitions\">数据挖掘竞赛代码</a><br>\n学习期间所打的一些比赛，只有部分关键代码，省略了数据和一些无关紧要的代码</p>\n<p><a href=\"https://github.com/jcw-2002/Crawler\">自动化爬虫工具集</a><br>\n自学的爬虫，这些都是爬取成功并获得数据的网站，有些代码可能已经过时</p>\n",
+            "tags": [
+                "自我介绍"
+            ]
+        }
+    ]
+}
