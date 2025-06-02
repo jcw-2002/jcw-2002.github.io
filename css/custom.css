@@ -1,0 +1,38 @@
+/* Telescopic 样式卡片宽度调整 */
+.telescopic-site-card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.telescopic-site-card-group .site-card {
+  width: calc(50% - 0.75rem) !important; /* 每行显示2个，增加宽度 */
+  min-width: 300px;
+  max-width: 450px;
+  flex: 0 0 auto;
+}
+
+/* 大屏幕适配 */
+@media screen and (min-width: 1400px) {
+  .telescopic-site-card-group .site-card {
+    width: calc(33.333% - 1rem) !important; /* 超大屏幕显示3列 */
+    min-width: 350px;
+  }
+}
+
+/* 平板适配 */
+@media screen and (max-width: 768px) {
+  .telescopic-site-card-group .site-card {
+    width: 100% !important;
+    min-width: unset;
+    max-width: unset;
+  }
+}
+
+/* 小屏手机适配 */
+@media screen and (max-width: 480px) {
+  .telescopic-site-card-group {
+    gap: 1rem;
+  }
+}

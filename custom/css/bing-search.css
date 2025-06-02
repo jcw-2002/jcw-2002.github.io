@@ -1,0 +1,435 @@
+.bing-search-container {
+  max-width: 600px;
+  margin: 0 auto; /* 完全移除上下间距 */
+  padding: 0.75rem; /* 进一步减少内边距 */
+  background: var(--anzhiyu-card-bg);
+  border-radius: 12px;
+  box-shadow: var(--anzhiyu-shadow-border);
+  transition: all 0.3s ease;
+}
+
+.bing-search-container:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--anzhiyu-shadow-main);
+}
+
+.bing-search-box h2 {
+  text-align: center;
+  color: var(--anzhiyu-fontcolor);
+  margin-bottom: 0.5rem; /* 进一步减少底部间距 */
+  font-weight: 600;
+  font-size: 1.2rem; /* 再次减小字体 */
+}
+
+.search-input-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#bing-search-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid var(--anzhiyu-theme);
+  border-radius: 25px;
+  background: var(--anzhiyu-bg);
+  color: var(--anzhiyu-fontcolor);
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#bing-search-input:focus {
+  border-color: var(--anzhiyu-main);
+  box-shadow: 0 0 0 3px rgba(var(--anzhiyu-main-rgb), 0.1);
+}
+
+#bing-search-btn {
+  padding: 12px 20px;
+  background: var(--anzhiyu-main);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#bing-search-btn:hover {
+  background: var(--anzhiyu-main-hover);
+  transform: translateY(-1px);
+}
+
+#bing-search-btn i {
+  font-size: 14px;
+}
+
+.search-tools-container {
+  max-width: 1000px;
+  margin: 0 auto; /* 移除上下间距 */
+  padding: 0.1rem; /* 最小化内边距 */
+}
+
+.bing-search-container {
+  background: var(--anzhiyu-card-bg);
+  border-radius: 12px;
+  box-shadow: var(--anzhiyu-shadow-border);
+  transition: all 0.3s ease;
+  margin-bottom: 0.75rem; /* 进一步减少底部间距 */
+  padding: 0.5rem; /* 大幅减少内边距 */
+}
+
+.bing-search-box h2 {
+  text-align: center;
+  color: var(--anzhiyu-fontcolor);
+  margin-bottom: 0.5rem; /* 进一步减少底部间距 */
+  font-weight: 600;
+  font-size: 1.2rem; /* 再次减小字体 */
+}
+
+#bing-search-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid var(--anzhiyu-theme);
+  border-radius: 25px;
+  background: var(--anzhiyu-bg);
+  color: var(--anzhiyu-fontcolor);
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#bing-search-input:focus {
+  border-color: var(--anzhiyu-main);
+  box-shadow: 0 0 0 3px rgba(var(--anzhiyu-main-rgb), 0.1);
+}
+
+#bing-search-btn {
+  padding: 12px 20px;
+  background: var(--anzhiyu-main);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#bing-search-btn:hover {
+  background: var(--anzhiyu-main-hover);
+  transform: translateY(-1px);
+}
+
+#bing-search-btn i {
+  font-size: 14px;
+}
+
+/* 翻译功能样式 */
+.translation-container {
+  background: var(--anzhiyu-card-bg);
+  border-radius: 12px;
+  box-shadow: var(--anzhiyu-shadow-border);
+  transition: all 0.3s ease;
+  padding: 1rem; /* 减少翻译容器内边距 */
+}
+
+.translation-container:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--anzhiyu-shadow-main);
+}
+
+.translation-box h2 {
+  text-align: center;
+  color: var(--anzhiyu-fontcolor);
+  margin-bottom: 1rem; /* 减少在线翻译标题下方间距 */
+  font-weight: 600;
+  font-size: 1.4rem; /* 稍微减小字体 */
+}
+
+.translation-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; /* 减少翻译方向选择器下方间距 */
+}
+
+/* 自定义下拉选择器样式 */
+.custom-select {
+  position: relative;
+  display: inline-block;
+  min-width: 200px;
+}
+
+.select-display {
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background: transparent;
+  color: var(--anzhiyu-fontcolor);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  user-select: none;
+}
+
+.select-display:hover {
+  background: rgba(var(--anzhiyu-theme-rgb), 0.1);
+}
+
+.select-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--anzhiyu-card-bg);
+  border: 2px solid var(--anzhiyu-theme);
+  border-radius: 12px;
+  box-shadow: var(--anzhiyu-shadow-main);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.select-dropdown.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.select-option {
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+  background: none;
+  width: 100%;
+  color: var(--anzhiyu-fontcolor);
+}
+
+.select-option:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+.select-option:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.select-option:only-child {
+  border-radius: 10px;
+}
+
+.select-option:hover {
+  background: rgba(var(--anzhiyu-theme-rgb), 0.1);
+}
+
+.select-option.selected {
+  background: #ffd700; /* 黄色背景 */
+  color: #333;
+  font-weight: 500;
+}
+
+.select-option:not(.selected) {
+  background: #888; /* 灰色背景 */
+  color: white;
+}
+
+/* 隐藏原有的select */
+#translate-direction {
+  display: none;
+}
+
+.translation-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem; /* 减少翻译内容区下方间距 */
+}
+
+.translation-input-section,
+.translation-output-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.translation-input-section label,
+.translation-output-section label {
+  color: var(--anzhiyu-fontcolor);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+#translation-input,
+#translation-output {
+  width: 100%;
+  min-height: 150px;
+  padding: 16px;
+  border: 2px solid var(--anzhiyu-theme);
+  border-radius: 12px;
+  background: var(--anzhiyu-bg);
+  color: var(--anzhiyu-fontcolor);
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+  resize: vertical;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+#translation-input:focus,
+#translation-output:focus {
+  border-color: var(--anzhiyu-main);
+  box-shadow: 0 0 0 3px rgba(var(--anzhiyu-main-rgb), 0.1);
+}
+
+#translation-output {
+  background: var(--anzhiyu-secondbg);
+  cursor: default;
+}
+
+.translation-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.translation-buttons button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.translation-buttons button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#baidu-translate-btn {
+  background: #3385ff;
+  color: white;
+}
+
+#baidu-translate-btn:hover:not(:disabled) {
+  background: #2d73e6;
+  transform: translateY(-1px);
+}
+
+#google-translate-btn {
+  background: #4285f4;
+  color: white;
+}
+
+#google-translate-btn:hover:not(:disabled) {
+  background: #3367d6;
+  transform: translateY(-1px);
+}
+
+.translation-buttons button i {
+  font-size: 14px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .search-tools-container {
+    margin: 0; /* 移除所有间距 */
+    padding: 0.05rem; /* 极小化内边距 */
+  }
+  
+  .bing-search-container, 
+  .translation-container {
+    padding: 0.4rem; /* 进一步减少移动端内边距 */
+    margin-bottom: 0.4rem; /* 减少底部间距 */
+  }
+  
+  .search-input-wrapper {
+    flex-direction: column;
+  }
+  
+  #bing-search-input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  #bing-search-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .translation-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .translation-buttons {
+    flex-direction: column;
+  }
+  
+  .translation-buttons button {
+    width: 100%;
+  }
+  
+  #translation-input,
+  #translation-output {
+    min-height: 120px;
+  }
+  
+  .custom-select {
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .translation-box h2,
+  .bing-search-box h2 {
+    font-size: 1rem; /* 进一步减小移动端字体 */
+    margin-bottom: 0.3rem; /* 减少标题底部间距 */
+  }
+  
+  .translation-options {
+    margin-bottom: 0.75rem; /* 减少移动端翻译选择器间距 */
+  }
+  
+  .translation-content {
+    margin-bottom: 0.75rem; /* 减少移动端翻译内容间距 */
+  }
+  
+  #translation-input,
+  #translation-output {
+    min-height: 100px;
+    font-size: 14px;
+    padding: 12px;
+  }
+  
+  .custom-select {
+    min-width: 160px;
+  }
+  
+  .select-display,
+  .select-option {
+    font-size: 13px;
+  }
+}
