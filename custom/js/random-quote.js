@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
         quoteText.id = 'random-quote';
         quoteText.className = 'random-quote-text';
         quoteText.textContent = getRandomQuote();
-        quoteText.title = '点击复制语句 | 每10秒自动刷新';
+        quoteText.title = '左键复制语句 | 右键刷新语句 | 每10秒自动刷新';
         
         container.appendChild(quoteText);
         document.body.appendChild(container);
@@ -120,13 +120,31 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
 
-        // 添加右键事件用于刷新语句
-        quoteText.addEventListener('contextmenu', function(e) {
-            e.preventDefault(); // 阻止默认右键菜单
-            updateQuote(this);
-            // 重置自动刷新定时器
-            startAutoRefresh(this);
+        // 使用mousedown事件替代contextmenu事件，更好地控制右键行为
+        quoteText.addEventListener('mousedown', function(e) {
+            if (e.button === 2) { // 右键
+                e.preventDefault();
+                e.stopPropagation();
+                updateQuote(this);
+                // 重置自动刷新定时器
+                startAutoRefresh(this);
+                return false;
+            }
         });
+
+        // 额外添加contextmenu事件作为双重保险
+        quoteText.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            return false;
+        });
+
+        // 添加CSS样式防止文本选择（可选）
+        quoteText.style.userSelect = 'none';
+        quoteText.style.webkitUserSelect = 'none';
+        quoteText.style.mozUserSelect = 'none';
+        quoteText.style.msUserSelect = 'none';
 
         // 开始自动刷新
         startAutoRefresh(quoteText);

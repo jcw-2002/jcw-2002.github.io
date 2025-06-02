@@ -352,6 +352,55 @@
   font-size: 14px;
 }
 
+/* 修复音乐播放器在搜索页面被隐藏的问题 */
+#nav-music {
+  z-index: 99999 !important;
+  position: relative !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.aplayer {
+  z-index: 99999 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.aplayer.aplayer-withlist .aplayer-list {
+  z-index: 99999 !important;
+}
+
+/* 确保搜索页面元素不会覆盖音乐播放器 */
+.search-tools-container,
+.bing-search-container,
+.translation-container {
+  position: relative;
+  z-index: 10;
+}
+
+.custom-select .select-dropdown {
+  z-index: 1000;
+}
+
+/* 特别针对搜索页面的音乐播放器修复 */
+body.search-page #nav-music,
+body.search-page .aplayer {
+  z-index: 99999 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* 防止任何元素意外覆盖音乐播放器 */
+.search-page * {
+  position: relative;
+}
+
+.search-page #nav-music,
+.search-page .aplayer {
+  position: fixed !important;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .search-tools-container {

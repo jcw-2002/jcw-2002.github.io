@@ -1,5 +1,7 @@
 /* filepath: f:\program\hexo\anzhiyu\source\custom\js\bing-search.js */
-document.addEventListener('DOMContentLoaded', function() {
+
+// 封装初始化函数
+function initBingSearchPage() {
   const searchInput = document.getElementById('bing-search-input');
   const searchBtn = document.getElementById('bing-search-btn');
   const translationInput = document.getElementById('translation-input');
@@ -7,6 +9,16 @@ document.addEventListener('DOMContentLoaded', function() {
   const baiduTranslateBtn = document.getElementById('baidu-translate-btn');
   const googleTranslateBtn = document.getElementById('google-translate-btn');
   const translateDirection = document.getElementById('translate-direction');
+
+  // 如果元素不存在，说明不在搜索页面
+  if (!searchInput || !searchBtn) {
+    return;
+  }
+
+  // 防止重复绑定事件，检查是否已经绑定过
+  if (searchBtn.dataset.initialized === 'true') {
+    return;
+  }
 
   // 创建自定义下拉选择器
   function createCustomSelect() {
@@ -38,12 +50,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // 插入到翻译选项区域
     const translationOptions = document.querySelector('.translation-options');
     if (translationOptions) {
+      // 检查是否已经存在自定义选择器
+      const existingSelect = translationOptions.querySelector('.custom-select');
+      if (existingSelect) {
+        existingSelect.remove();
+      }
       translationOptions.appendChild(customSelectContainer);
     }
     
     // 设置初始显示
     selectDisplay.textContent = option1.textContent;
-    translateDirection.value = option1.dataset.value;
+    if (translateDirection) {
+      translateDirection.value = option1.dataset.value;
+    }
     
     // 添加事件监听
     selectDisplay.addEventListener('click', function(e) {
@@ -64,7 +83,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // 设置当前选中
         this.classList.add('selected');
         selectDisplay.textContent = this.textContent;
-        translateDirection.value = this.dataset.value;
+        if (translateDirection) {
+          translateDirection.value = this.dataset.value;
+        }
         
         // 关闭下拉框
         dropdown.classList.remove('active');
@@ -316,5 +337,24 @@ document.addEventListener('DOMContentLoaded', function() {
         this.style.transform = 'scale(1)';
       });
     }
+    
+    // 标记翻译按钮已初始化
+    baiduTranslateBtn.dataset.initialized = 'true';
+    googleTranslateBtn.dataset.initialized = 'true';
   }
-});
+  
+  // 标记搜索功能已初始化
+  searchBtn.dataset.initialized = 'true';
+}
+
+// DOM加载完成时初始化
+document.addEventListener('DOMContentLoaded', initBingSearchPage);
+
+// 监听AnZhiYu主题的pjax事件
+if (typeof window !== 'undefined') {
+  // pjax完成事件
+  document.addEventListener('pjax:complete', initBingSearchPage);
+  
+  // 备用事件监听
+  document.addEventListener('pjax:end', initBingSearchPage);
+}
