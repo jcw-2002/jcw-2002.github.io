@@ -1,18 +1,19 @@
-/* 将音乐播放器移动到导航栏左边更靠上和靠左的位置，保持原有样式 */
+/* 将音乐播放器移动到页面最底下左边五分之一处 */
 #nav-music.music-to-header {
   position: fixed !important;
-  top: 10px !important;
-  left: 23% !important;
+  bottom: 0px !important; /* 页面最底部 */
+  left: 10% !important; /* 左边五分之一位置 */
+  top: auto !important;
   right: auto !important;
-  bottom: auto !important;
-  z-index: 1000 !important;
+  z-index: 1002 !important; /* 确保在随机语言横条之上 */
   transform: translateX(-50%) !important; /* 居中对齐 */
 }
 
 /* 移动端适配 */
 @media screen and (max-width: 768px) {
   #nav-music.music-to-header {
-    top: 8px !important;
-    left: 15% !important;
+    bottom: 0px !important;
+    left: 10% !important;
+    transform: translateX(-50%) scale(0.9) !important; /* 移动端稍微缩小 */
   }
 }
